@@ -1,0 +1,62 @@
+* {
+    padding:0;
+    margin:0;
+    }
+
+.container{
+    background-image: url(images/bg5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.titulo{
+    font-size: 60px;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 20vh; 
+    padding-bottom: 20vh;
+    text-shadow: 2px 2px 4px black;
+}
+
+.relogio{
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.numero{
+    font-size: 90px;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px black;
+
+}
+
+
+@media screen and (max-width: 930px) {
+    body{
+        background-color: chartreuse;
+    }
+
+    .titulo{
+        font-size: 40px;
+    }
+
+    .numero{
+        font-size: 60px;
+    }
+    
+}
+
+@media screen and (max-width: 550px){
+    .titulo{
+        font-size: 30px;
+    }
+
+    .numero{
+        font-size: 40px;
+    }
+}
